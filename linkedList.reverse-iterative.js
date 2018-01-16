@@ -15,10 +15,12 @@ class Node {
   }
 }
 
+// When doing this one, draw it out, it's meant to be confusing.
+// in: [10]->[11]->[12]  ==> out: [12]->[11]->10
 function reverseList(head) {
   let cur = head;
-  let next = null;
-  let prev = null;
+  let next = null
+  let prev = null
 
   while (cur != null) {
     next = cur.next;
@@ -31,7 +33,7 @@ function reverseList(head) {
 }
 
 
-// Linked List
+// Linked List: [10]->[11]->[12]
 let list = new Node(10);
 list.next = new Node(11);
 list.next.next = new Node(12);
