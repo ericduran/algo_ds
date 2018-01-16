@@ -1,0 +1,39 @@
+/**
+ * @file
+ *
+ * Given pointer to the head node of a linked list, the task is to reverse the
+ * linked list. We need to reverse the list by changing links between nodes.
+ *
+ * @see https://www.geeksforgeeks.org/reverse-a-linked-list/
+ */
+
+// Node for linked list items, no need for a Linked List wrapper class.
+class Node {
+  constructor(data) {
+    this.data = data;
+    this.next = null;
+  }
+}
+
+function reverseList(head) {
+  let cur = head;
+  let next = null;
+  let prev = null;
+
+  while (cur != null) {
+    next = cur.next;
+    cur.next = prev;
+    prev = cur;
+    cur = next;
+  }
+
+  return prev;
+}
+
+
+// Linked List
+let list = new Node(10);
+list.next = new Node(11);
+list.next.next = new Node(12);
+
+console.log(reverseList(list), 'should be 12 => 11 => 10');
