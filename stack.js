@@ -1,14 +1,40 @@
+/**
+ * @file
+ *
+ * It's good to implement your own stack and really understand
+ * how it works.
+ *
+ * During interviews no-one expects you to write a class to use a stack.
+ * I always just used an array but was explicit in treating it like a stack.
+ * @example
+ *  let stack = []; stack.push(); start.pop(); etc..
+ *
+ * Could be updated, early work.
+ *
+ * @see https://www.geeksforgeeks.org/stack-data-structure-introduction-program/
+ */
+
+// LinkedList node for Stack internal.
+class Node {
+  constructor(data) {
+    this.data = data;
+    this.next = null;
+  }
+}
+
 class Stack {
   constructor() {
     this.head = null;
     this.len = 0;
   }
+
   push(data) {
     let n = new Node(data);
     n.next = this.head;
     this.head = n;
     this.len++
   }
+
   pop() {
     if (this.head === null) { throw new Error('Stack underflow'); }
     let n = this.head;
@@ -24,13 +50,6 @@ class Stack {
   }
   size() {
     return this.len;
-  }
-}
-
-class Node {
-  constructor(data) {
-    this.data = data;
-    this.next = null;
   }
 }
 

@@ -17,3 +17,4 @@ I'll be organizing it and adding more problems.
 | [Write a program to print all permutations of a given string](https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/) | string, permutation | [string.permutation.js](./string.permutation.js) |
 | [Implement a quick sort](https://www.geeksforgeeks.org/quick-sort/) | sorting | [sort.quicksort.js](./sort.quicksort.js) |
 | [Implement a Run Length Encoding](https://www.geeksforgeeks.org/run-length-encoding/) | string, encoding | [string.compress.js](./string.compress.js) |
+| [Implement a Stack](https://www.geeksforgeeks.org/stack-data-structure-introduction-program/) | stack | [stack.js](./stack.js) |
