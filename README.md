@@ -3,7 +3,9 @@ Random algorithms &amp; data structures snippets
 
 This is just a collection of random problems I've been doing.
 
-This isn't organized yet, and it's just a giant dump of what was on my computer.
+This is currently a work in progress, and it's just a giant dump of what was on my computer.
+
+The repo has a bunch of problems not currently listed in the readme.
 
 I'll be organizing it and adding more problems.
 
@@ -13,3 +15,4 @@ I'll be organizing it and adding more problems.
 | [Reverse a linked list](https://www.geeksforgeeks.org/reverse-a-linked-list/) | linked list | [linkedList.reverse-iterative.js](./linkedList.reverse-iterative.js) |
 | [A program to check if a binary tree is BST or not](https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/) | binary search tree | [bst.check-bst.js](./bst.check-bst.js) |
 | [Write a program to print all permutations of a given string](https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/) | permutation,string | [string.permutation.js](./string.permutation.js) |
+| [Implement a quick sort](https://www.geeksforgeeks.org/quick-sort/) | sorting | [sort.quicksort.js](./sort.quicksort.js) |
