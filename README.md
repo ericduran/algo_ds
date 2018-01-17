@@ -18,3 +18,4 @@ I'll be organizing it and adding more problems.
 | [Implement a quick sort](https://www.geeksforgeeks.org/quick-sort/) | sorting | [sort.quicksort.js](./sort.quicksort.js) |
 | [Implement a Run Length Encoding](https://www.geeksforgeeks.org/run-length-encoding/) | string, encoding | [string.compress.js](./string.compress.js) |
 | [Implement a Stack](https://www.geeksforgeeks.org/stack-data-structure-introduction-program/) | stack | [stack.js](./stack.js) |
+| [Count ways to reach the n’th stair](https://www.geeksforgeeks.org/count-ways-reach-nth-stair/) | dynamic programming | [dp.stairs.js](./dp.stairs.js) |
