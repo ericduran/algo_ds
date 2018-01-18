@@ -15,6 +15,7 @@ I'll be organizing it and adding more problems.
 | [Reverse a linked list](https://www.geeksforgeeks.org/reverse-a-linked-list/) | linked list | [linkedList.reverse-iterative.js](./linkedList.reverse-iterative.js) |
 | [Detect loop in a linked list](https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/) | linked list | [linkedList.cycle.js](./linkedList.cycle.js) |
 | [A program to check if a binary tree is BST or not](https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/) | tree | [tree.check-bst.js](./tree.check-bst.js) |
+| [Check if a binary tree is balance](https://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/) | tree | [tree.check-balance.js](./tree.check-balance.js) |
 | [Sorted Array to Balanced BST](https://www.geeksforgeeks.org/sorted-array-to-balanced-bst/) | tree | [tree.from-sorted-array.js](./tree.from-sorted-array.js) |
 | [Program to Check if a Given String is Palindrome](https://www.geeksforgeeks.org/c-program-check-given-string-palindrome/) | string | [string.palindrome.js](./string.palindrome.js) |
 | [Determine if a string has all Unique Characters](https://www.geeksforgeeks.org/determine-string-unique-characters/) | string | [string.unique.js](./string.unique.js) |
