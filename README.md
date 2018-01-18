@@ -16,6 +16,7 @@ I'll be organizing it and adding more problems.
 | [Detect loop in a linked list](https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/) | linked list | [linkedList.cycle.js](./linkedList.cycle.js) |
 | [A program to check if a binary tree is BST or not](https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/) | binary tree, binary search tree | [bst.check-bst.js](./bst.check-bst.js) |
 | [Sorted Array to Balanced BST](https://www.geeksforgeeks.org/sorted-array-to-balanced-bst/) | binary search tree | [bst.from-sorted-array.js](./bst.from-sorted-array.js) |
+| [Program to Check if a Given String is Palindrome](https://www.geeksforgeeks.org/c-program-check-given-string-palindrome/) | string | [string.palindrome.js](./string.palindrome.js) |
 | [Write a program to print all permutations of a given string](https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/) | string, permutation | [string.permutation.js](./string.permutation.js) |
 | [Implement a quick sort](https://www.geeksforgeeks.org/quick-sort/) | sorting | [sort.quicksort.js](./sort.quicksort.js) |
 | [Implement a Run Length Encoding](https://www.geeksforgeeks.org/run-length-encoding/) | string, encoding | [string.compress.js](./string.compress.js) |
